@@ -17,7 +17,7 @@ func GenerateDistributableList(inputPaths []string, output string, logPath strin
 	// --output_file=filters.dat
 	// Example: https://www.bromite.org/custom-filters
 
-	cmd := exec.Command(rulesetExecutable, "--input_format=filter-list", "--output_format=unindexed-ruleset", "--input_files="+strings.Join(inputPaths, ","), "--output_file="+output)
+	cmd := exec.Command(rulesetExecutable, "--input_format=filter-list", "--output_format=unindexed-ruleset", "--input_files=rules/filters.txt,"+strings.Join(inputPaths, ","), "--output_file="+output)
 
 	if logPath != "" {
 		f, err := os.Create(logPath)
