@@ -16,8 +16,8 @@ filtrite() {
     ./filtrite "lists/$1.txt" "logs/$1.dat" "logs/$1.log"
     ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1.dat" --output_file="logs/$1_b1.txt" > "logs/$1_err2.log" 2>&1
     sort -u "logs/$1_b1.txt" > "logs/$1_b2.txt"
-    perl -e 'while(<>) { print $_ unless (/^@@/); }' "logs/$1_b2.txt" > "logs/$1_b3.txt"
-    perl -e 'while(<>) { print $_ if (/^@@/); }' "logs/$1_b2.txt" > "logs/$1_b4.txt"
+    grep -v '^@@' "logs/$1_b2.txt" > "logs/$1_b3.txt"
+    grep '^@@' "logs/$1_b2.txt" > "logs/$1_b4.txt"
     ./deps/ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files="logs/$1_b3.txt","logs/$1_b4.txt" --output_file="dist/$1.dat" > "logs/$1_err3.log" 2>&1
     ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="dist/$1.dat" --output_file="dist/$1.txt" > "logs/$1_err4.log" 2>&1
     echo "::endgroup::"
