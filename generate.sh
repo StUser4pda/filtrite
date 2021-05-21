@@ -45,9 +45,8 @@ echo "::endgroup::"
 echo "::group::List: bromite-default"
 # Download default bromite filter list
 wget -O rules/filters.dat https://www.bromite.org/filters/filters.dat
+log "Start generating bromite-default filters.txt"
 ./deps/ruleset_converter.exe --input_format=unindexed-ruleset --output_format=filter-list --input_files=rules/filters.dat --output_file=rules/filters.txt 2> logs/filter.log
-log "Start generating bromite-default"
-#./filtrite lists/bromite-default.txt dist/bromite-default.dat logs/bromite-default.log
 echo "::endgroup::"
 
 # All other lists can be listed here
@@ -57,3 +56,4 @@ filtrite bromite-4pda
 echo "::group::Cleanup"
 cleanup
 echo "::endgroup::"
+
