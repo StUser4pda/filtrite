@@ -19,7 +19,7 @@ filtrite() {
     sleep 5
     sort -u "logs/$1_b1.txt" > "logs/$1_b2.txt"
     sleep 5
-    perl -E "while(<>) { print $_ unless (/@@/ or /\#/ or /%%/ or /\#\?\#/ ); }" "rules/$1_b2.txt" > "logs/$1_b3.txt"
+    perl -E "while(<>) { print $_ unless (/@@/ or /\#/ or /%%/ or /\#\?\#/ ); }" "logs/$1_b2.txt" > "logs/$1_b3.txt"
     sleep 5
     perl -E "while(<>) { print $_ if (/@@/ and !/\#\?\#/); }" "logs/$1_b2.txt" > "logs/$1_b4.txt"
     sleep 5
