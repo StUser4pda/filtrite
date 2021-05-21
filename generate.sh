@@ -41,15 +41,16 @@ mkdir -p logs
 echo "::endgroup::"
 
 # Default is a special case because of the download
-echo "::group::List: bromite-default"
+# echo "::group::List: bromite-default"
 # Download default bromite filter list
-wget -O lists/bromite-default.txt https://raw.githubusercontent.com/bromite/filters/master/lists.txt
-log "Start generating bromite-default"
-./filtrite lists/bromite-default.txt dist/bromite-default.dat logs/bromite-default.log
-echo "::endgroup::"
+# wget -O lists/bromite-default.txt https://raw.githubusercontent.com/bromite/filters/master/lists.txt
+# log "Start generating bromite-default"
+# ./filtrite lists/bromite-default.txt dist/bromite-default.dat logs/bromite-default.log
+# echo "::endgroup::"
 
 # All other lists can be listed here
-filtrite bromite-extended
+# filtrite bromite-extended
+filtrite bromite-4pda
 
 echo "::group::Cleanup"
 cleanup
