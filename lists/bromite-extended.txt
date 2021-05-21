@@ -32,5 +32,22 @@ https://easylist.to/easylist/fanboy-social.txt
 # Annoyances on Twitter
 https://raw.githubusercontent.com/robonxt/CleanYourTwitter/master/CleanYourTwitter.txt
 
-# My own block list
+# xarantolus block list
 https://raw.githubusercontent.com/xarantolus/nervig/main/annoyances.txt
+
+# RU AdList, AdGuard, etc.
+https://easylist-downloads.adblockplus.org/advblock.txt
+https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+https://easylist-downloads.adblockplus.org/cntblock.txt
+https://easylist-downloads.adblockplus.org/bitblock.txt
+https://filters.adtidy.org/extension/ublock/filters/1.txt
+https://filters.adtidy.org/extension/ublock/filters/2.txt
+https://filters.adtidy.org/extension/ublock/filters/3.txt
+https://filters.adtidy.org/extension/ublock/filters/4.txt
+https://filters.adtidy.org/extension/ublock/filters/10.txt
+https://filters.adtidy.org/extension/ublock/filters/11.txt
+https://filters.adtidy.org/extension/ublock/filters/14.txt
+https://filters.adtidy.org/extension/ublock/filters/15.txt
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/badware.txt
+https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-online.txt
+
