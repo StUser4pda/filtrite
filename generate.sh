@@ -12,17 +12,11 @@ filtrite() {
     echo "::group::List: $1"
     log "Start generating $1"
     ./filtrite "lists/$1.txt" "rules/$1.dat" "logs/$1.log"
-    echo "Step 2"
     ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="rules/$1.dat" --output_file="rules/$1_b1.txt" > "logs/$1_err2.log" 2>&1
-    echo "Step 3"
     sort -u "rules/$1_b1.txt" > "rules/$1_b2.txt"
-    echo "Step 4"
     perl -E "while(<>) { print $_ unless (/@@/ or /\#/ or /%%/ or /\#\?\#/ ); }" "rules/$1_b2.txt" > "rules/$1_b3.txt"
-    echo "Step 5"
     perl -E "while(<>) { print $_ if (/@@/ and !/\#\?\#/); }" "rules/$1_b2.txt" > "rules/$1_b4.txt"
-    echo "Step 6"
     ./deps/ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files="rules/$1_b3.txt","rules/$1_b4.txt" --output_file="dist/$1.dat" > "logs/$1_err3.log" 2>&1
-    echo "Step 7"
     ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="dist/$1.dat" --output_file="dist/$1.txt" > "logs/$1_err4.log" 2>&1
     echo "::endgroup::"
 }
