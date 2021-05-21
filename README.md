@@ -7,7 +7,7 @@ Here's a list:
 
 | Link | Description  |
 | ------ | ------|
-| [Bromite 4pda](https://github.com/StUser4pda/filtrite/releases/latest/download/bromite-4pda.dat) | The default list with additional blockers for 4pda |
+| [Bromite 4pda](https://github.com/StUser4pda/filtrite/releases/latest/download/bromite-4pda.dat) | The default list with additional blockers |
 
 
 These lists are regularly updated automatically using GitHub Actions.
