@@ -40,7 +40,6 @@ unzip "subresource_filter_tools_linux.zip" -d deps
 rm "subresource_filter_tools_linux.zip"
 echo "::endgroup::"
 
-
 echo "::group::Other setup steps"
 chmod +x filtrite
 chmod +x deps/ruleset_converter
