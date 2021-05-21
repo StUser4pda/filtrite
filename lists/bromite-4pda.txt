@@ -1,5 +1,5 @@
-https://easylist.to/easylist/easylist.txt
-https://easylist.to/easylist/easyprivacy.txt
+https://easylist-downloads.adblockplus.org/easylist.txt
+https://easylist-downloads.adblockplus.org/easyprivacy.txt
 https://easylist-downloads.adblockplus.org/advblock.txt
 https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 https://easylist-downloads.adblockplus.org/cntblock.txt
@@ -21,5 +21,4 @@ https://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt
 https://github.com/uBlockOrigin/uAssets/raw/master/filters/unbreak.txt
 https://github.com/brave/adblock-lists/raw/master/coin-miners.txt
 https://github.com/brave/adblock-lists/raw/master/brave-unbreak.txt
-https://github.com/brave/adblock-lists/raw/master/brave-disconnect.txt
 https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-online.txt
