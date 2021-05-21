@@ -5,9 +5,11 @@ set -e
 log () {
     echo `date +"%m/%d/%Y %H:%M:%S"` "$@"
 }
+
 cleanup() {
     rm -f filtrite >> /dev/null 2>&1
 }
+
 filtrite() {
     echo "::group::List: $1"
     log "Start generating $1"
