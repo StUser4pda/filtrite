@@ -58,5 +58,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Logs
-        path: logs/*.log
+        path: logs/*
       if: ${{ always() }}
