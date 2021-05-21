@@ -39,7 +39,7 @@ jobs:
     - name: Release filter lists
       uses: softprops/action-gh-release@v1
       with:
-        files: dist/*.dat
+        files: dist/*.*
         name: Automatic list generation
         tag_name: ${{ env.TAG_NAME }}
         body_path: release.md
