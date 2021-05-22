@@ -21,7 +21,7 @@ filtrite() {
     # Removing duplicate values (a ruleset_converter bug?) like :
     # $script,xmlhttprequest,third-party,domain=tamilyogi.cc|tamilyogi.vip
     # $script,xmlhttprequest,third-party,domain=tamilyogi.vip|tamilyogi.cc
-    ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1_b0.txt" --output_file="logs/$1_b0.dat" 
+    ./deps/ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset --input_files="logs/$1_b0.txt" --output_file="logs/$1_b0.dat" 
     ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1_b0.dat" --output_file="logs/$1_b0.txt" 
 
     # Fixing/sorting (I prefer sorted lists with whitelist rules at the end)
