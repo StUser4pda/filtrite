@@ -5,7 +5,6 @@ https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 https://easylist-downloads.adblockplus.org/cntblock.txt
 https://easylist-downloads.adblockplus.org/bitblock.txt
 https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-https://easylist-downloads.adblockplus.org/abp-filters-mobile.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
 https://filters.adtidy.org/extension/ublock/filters/1.txt
 https://filters.adtidy.org/extension/ublock/filters/2.txt
