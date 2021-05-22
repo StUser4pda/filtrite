@@ -1,6 +1,6 @@
 znctrack.net
 zmctrack.net
-||livenewsnow.com/wp-content/uploads/pum/pum-site-scripts.js$domain=livenewsnow.com
+/pum/pum-site-$script,css,domain=livenewsnow.com|livenewsmag.com|livenewswatch.com
 ||www.pogdesign.co.uk/cat/imgs/premimg$image,domain=www.pogdesign.co.uk
 @@||chtbl.com/track/*$media,domain=player.fm
 @@||janjua.pw^$script,xmlhttprequest,domain=janjua.tv
