@@ -8,7 +8,6 @@ log () {
 
 cleanup() {
     rm -f filtrite >> /dev/null 2>&1
-    rm -f deps >> /dev/null 2>&1
 }
 
 filtrite() {
