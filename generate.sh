@@ -8,7 +8,6 @@ log () {
 
 cleanup() {
     rm -f filtrite >> /dev/null 2>&1
-    rm -f deps >> /dev/null 2>&1
 }
 
 filtrite() {
@@ -17,7 +16,7 @@ filtrite() {
     ./filtrite "lists/$1.txt" "logs/$1.dat" "logs/$1.log"
 
     # Joining our lists with the default filters.dat
-    ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1.dat" --output_file="logs/$1_b0.txt" > "logs/$1_2.log" 2>&1
+    ./deps/ruleset_converter --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1.dat","logs/filters.dat" --output_file="logs/$1_b0.txt" > "logs/$1_2.log" 2>&1
 
     # Removing duplicate values (a ruleset_converter bug?) like :
     # $script,xmlhttprequest,third-party,domain=tamilyogi.cc|tamilyogi.vip
