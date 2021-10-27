@@ -49,7 +49,7 @@ echo "::endgroup::"
 
 echo "::group::Downloading latest subresource_filter_tools build"
 # wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/latest/download/subresource_filter_tools_linux-x64.zip"
-wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/download/2021-10-06-06-41/subresource_filter_tools_linux-x64.zip"
+wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/download/2021-10-13-06-49/subresource_filter_tools_linux-x64.zip"
 
 mkdir -p deps
 unzip "subresource_filter_tools_linux.zip" -d deps
