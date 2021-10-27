@@ -1,3 +1,3 @@
 module StUser4pda/filtrite
 
-go 1.17
+go 1.15
