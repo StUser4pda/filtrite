@@ -16,7 +16,7 @@ filtrite() {
     ./filtrite "lists/$1.txt" "logs/$1.dat" "logs/$1.log"
 
     # Joining our lists with the default filters.dat
-    ./deps/ruleset_converter --chrome_version=54 --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1.dat","logs/filters.dat" --output_file="logs/$1_b0.txt" > "logs/$1_2.log" 2>&1
+    ./deps/ruleset_converter --chrome_version=54 --input_format=unindexed-ruleset --output_format=filter-list --input_files="logs/$1.dat","logs/filters.dat" --output_file_url="logs/$1_b0.txt" --output_file_css="logs/$1_b0_css.txt" > "logs/$1_2.log" 2>&1
 
     # Removing duplicate values (a ruleset_converter bug?) like :
     # $script,xmlhttprequest,third-party,domain=tamilyogi.cc|tamilyogi.vip
