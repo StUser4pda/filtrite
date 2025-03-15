@@ -48,7 +48,8 @@ go build -v -o filtrite
 echo "::endgroup::"
 
 echo "::group::Downloading latest subresource_filter_tools build"
-wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/latest/download/subresource_filter_tools_linux-x64.zip"
+#wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/latest/download/subresource_filter_tools_linux-x64.zip"
+wget -O "subresource_filter_tools_linux.zip" "https://github.com/xarantolus/subresource_filter_tools/releases/download/2024-09-24-04-25/subresource_filter_tools_linux-x64.zip"
 
 mkdir -p deps
 unzip "subresource_filter_tools_linux.zip" -d deps
