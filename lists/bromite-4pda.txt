@@ -19,3 +19,4 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-a
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
 https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-online.txt
+https://filters.adtidy.org/extension/ublock/filters/1.txt
