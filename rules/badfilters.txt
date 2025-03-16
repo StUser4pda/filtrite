@@ -1,4 +1,1 @@
-@@://s.zmctrack.net/z|$xmlhttprequest,third-party
-@@||s.zmctrack.net/z|$xmlhttprequest,third-party,domain=~www.ukr.net
-#?#
-#$#
+
