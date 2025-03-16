@@ -1,8 +1,1 @@
-znctrack.net
-zmctrack.net
-/pum/pum-site-$script,stylesheet,domain=livenewsnow.com|livenewsmag.com|livenewswatch.com
-||ae01.alicdn.com/kf/$image,domain=rutracker.org
-||www.pogdesign.co.uk/cat/imgs/premimg$image,domain=www.pogdesign.co.uk
-@@||forum.pravda.com.ua$image,domain=forum.pravda.com.ua
-@@||chtbl.com/track/*$media,domain=player.fm
-@@||janjua.pw^$script,xmlhttprequest,domain=janjua.tv
+
