@@ -12,7 +12,6 @@ https://filters.adtidy.org/extension/ublock/filters/3.txt
 https://filters.adtidy.org/extension/ublock/filters/4.txt
 https://filters.adtidy.org/extension/ublock/filters/10.txt
 https://filters.adtidy.org/extension/ublock/filters/11.txt
-#https://filters.adtidy.org/extension/ublock/filters/14.txt
 https://filters.adtidy.org/extension/ublock/filters/15.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
