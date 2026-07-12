@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-20
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2024.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2025.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2026.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
@@ -23,4 +24,3 @@ https://filters.adtidy.org/extension/ublock/filters/1.txt
 https://filters.adtidy.org/extension/ublock/filters/2.txt
 https://filters.adtidy.org/extension/ublock/filters/4.txt
 https://filters.adtidy.org/extension/ublock/filters/11.txt
-https://filters.adtidy.org/extension/ublock/filters/15.txt
